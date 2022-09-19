@@ -6,4 +6,4 @@ with dw_faturamento_model as (
     GROUP BY pro.model
     ORDER BY 2 DESC
 )
-SELECT * FROM fw.faturamento_model
+SELECT * FROM dw_faturamento_model
